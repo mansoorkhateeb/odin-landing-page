@@ -36,3 +36,47 @@ a {
     color: #f9faf8;
     text-transform: capitalize;
 }
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    align-items: center;
+    background-color: #1f2937;
+    padding: 40px;
+    flex: 1;
+}
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px;
+    align-items: center;
+}
+.hero__heading h1 {
+    font-family: "Roboto";
+    font-weight: 900;
+    font-size: 3rem;
+    color: #f9faf8;
+}
+.hero__text p {
+    font-family: "Roboto";
+    font-size: 1rem;
+    color: #e5e7eb;
+}
+.hero__img img{
+    width: 50%;
+}
+.hero__signup {
+    background-color: #3882F6; /* Green */
+    border: none;
+    color: white;
+    padding: 20px 15px 20px 15px;
+    border-radius: 10%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.hero__button a {
+    color: #fff;
+    font-family: "Roboto";
+}
