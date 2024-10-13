@@ -129,3 +129,40 @@ a {
     font-family: "Roboto";
     text-align: right;
 }
+.call-to-action {
+    display: flex;
+    margin: 50px 0 50px 0;
+    background-color: #3882F6;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+.cta-content {
+    display: block;
+}
+.cta-content h3 {
+    font-family: "Roboto";
+    color: #f9faf8;
+    font-size: 1.5rem;
+    padding: 0;
+    margin-bottom: 0;
+
+}
+.cta-content p {
+    font-family: "Roboto";
+    color: #e5e7eb;
+    font-size: 0.8rem;
+    margin-top: 5px;
+    margin-bottom: 30px;
+}
+.cta__signup {
+    background-color: #3882F6; /* Green */
+    border: 2px solid white;
+    color: white;
+    padding: 20px 15px 20px 15px;
+    border-radius: 10%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
