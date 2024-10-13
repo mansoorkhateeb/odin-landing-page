@@ -80,3 +80,35 @@ a {
     color: #fff;
     font-family: "Roboto";
 }
+.information-heading h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #1f2937;
+    font-weight: 900;
+    font-family: "Roboto";
+    padding: 50px;
+}
+.information-part2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    gap: 20px
+}
+.information-item {
+    justify-content: space-around;
+    align-items: center;
+}
+.information-item img {
+    width: 70%;
+}
+.information-item p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    font-family: "Roboto";
+    font-size: 1rem;
+    color: #1f2937;
+}
